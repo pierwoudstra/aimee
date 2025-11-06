@@ -1,0 +1,11 @@
+100
+007
+
+
+- sommige text lichter
+- sommige text cursief
+
+home
+contact
+cv
+	projects

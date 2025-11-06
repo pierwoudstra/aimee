@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-wrap: anywhere;
+    letter-spacing: 0.05vw;
+    line-height: 2.1vh;
+}
+
+a {
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: lighter;
+    color: black;
+    font-size: 0.8vw;
+    /* text-align: justify; */
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: lighter;
+    color: black;
+    font-size: 0.8vw;
+    /* text-align: justify; */
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: normal;
+    color: grey;
+    font-size: 0.9vw;
+}
+
+/* SECTION */
+
+#main {
+    display: grid;
+
+    padding-top: 5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+
+    grid-template-columns: 20% 80%;
+}
+
+.menu {
+    width: 100%;
+    border-top: 1px solid grey;
+    padding-right: 3vw;
+}
+
+.menu p {
+    margin-right: 4vh;
+}
+
+.content {
+    width: 90%;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    padding-left: 3vw;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    /* margin: 1%; */
+}
+
+.content p {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    align-items: center; 
+}
+
+/* HEADERS */
+
+.title {
+    padding-top: 3vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.header-links {
+    display: flex;
+    justify-content:space-between; 
+    align-items: center; 
+    width: 95%;
+    margin: 0;
+}
+
+/* .triple {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    margin: 0;
+    padding-right: 2vw;
+} */
+
+.triple {
+    display: flex;
+    align-items: left; 
+    width: 100%;
+    margin: 0;
+    gap: 2%;
+}
+
+.triple img {
+    height: 3vw;
+    width: auto;
+}
+
+/* EXTRA */
+
+.double {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 98%; 
+    margin: 0;
+    margin-bottom: 1%;
+    gap: 2%;
+}
+
+.double img {
+    width: 50%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    a, p, h2 {
+        font-size: 2vw;
+    }
+
+    #main {
+        grid-template-columns: 40% 50%;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .content {
+        width: 100%;
+        padding-left: 3vw;
+    }
+}
