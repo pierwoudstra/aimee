@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     overflow-wrap: anywhere;
-    letter-spacing: 0.05vw;
-    line-height: 2.1vh;
+    letter-spacing: 0.01vw;
+    line-height: 1.5vh;
 }
 
 a {
@@ -27,9 +27,13 @@ p {
 h2 {
     font-family: Helvetica, sans-serif;
     text-decoration: none;
-    font-weight: normal;
-    color: grey;
+    font-weight:100;
+    color: black;
     font-size: 0.9vw;
+}
+
+h2 em {
+    font-size: 0.8vw;
 }
 
 /* SECTION */
@@ -44,10 +48,24 @@ h2 {
     grid-template-columns: 20% 80%;
 }
 
-.menu {
-    width: 100%;
-    border-top: 1px solid grey;
+#main p {
+    text-align: justify;
+}
+
+#main-cv {
+    display: grid;
+
+    padding-top: 5vh;
+    padding-left: 3vw;
     padding-right: 3vw;
+
+    grid-template-columns: 20% 50% 30%;
+}
+
+.menu {
+    width: 95%;
+    border-top: 1px solid grey;
+    padding-right: 4vw;
 }
 
 .menu p {
