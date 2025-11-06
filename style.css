@@ -66,6 +66,7 @@ h2 em {
     width: 95%;
     border-top: 1px solid grey;
     padding-right: 4vw;
+    /* margin-right: 4vw; */
 }
 
 .menu p {
