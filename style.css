@@ -158,12 +158,13 @@ body {
     height: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     a, p, h2 {
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
     #main {
+
         grid-template-columns: 40% 50%;
         padding-right: 0;
         margin-right: 0;
@@ -172,5 +173,21 @@ body {
     .content {
         width: 100%;
         padding-left: 3vw;
+    }
+
+    #main-cv {
+        display: grid;
+
+        padding-top: 1vh;
+        padding-left: 10vw;
+        padding-right: 3vw;
+
+        grid-template-columns: 5% 90% 5%;
+    }
+
+    .title {
+        padding-top: 1vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
     }
 }
