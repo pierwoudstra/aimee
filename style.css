@@ -103,6 +103,21 @@ body {
     align-items: center; 
 }
 
+.bio {
+    /* background-color: white; */
+    width: 90%;
+    /* border-left: 1px solid grey; */
+    /* border-top: 1px solid grey; */
+    padding-left: 3vw;
+}
+
+.bio p {
+    display: flex;
+    justify-content: space-between; 
+    width: 70%; 
+    align-items: center; 
+}
+
 /* HEADERS */
 
 .title {
